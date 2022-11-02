@@ -2,9 +2,9 @@ import random as r
 
 # define file names
 print("enter start config file name : ")
-start_conf_file = sys.argv[1] # 'test/start.txt'  # 'Sample_Start_Configuration.txt'
+start_conf_file = input() # sys.argv[1] # 'test/start.txt'  # 'Sample_Start_Configuration.txt'
 print("enter goal config file name : ")
-goal_conf_file = sys.argv[2] # 'test/goal.txt'  # 'Sample_Goal_Configuration.txt'
+goal_conf_file = input() # sys.argv[2] # 'test/goal.txt'  # 'Sample_Goal_Configuration.txt'
 
 
 def get_input(filename):
